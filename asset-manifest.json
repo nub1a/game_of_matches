@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/game_of_matches/static/css/main.1b64cd93.chunk.css",
+    "main.js": "/game_of_matches/static/js/main.870cfba2.chunk.js",
+    "main.js.map": "/game_of_matches/static/js/main.870cfba2.chunk.js.map",
+    "runtime-main.js": "/game_of_matches/static/js/runtime-main.3c0598ab.js",
+    "runtime-main.js.map": "/game_of_matches/static/js/runtime-main.3c0598ab.js.map",
+    "static/js/2.f97c8026.chunk.js": "/game_of_matches/static/js/2.f97c8026.chunk.js",
+    "static/js/2.f97c8026.chunk.js.map": "/game_of_matches/static/js/2.f97c8026.chunk.js.map",
+    "static/js/3.c236ee5b.chunk.js": "/game_of_matches/static/js/3.c236ee5b.chunk.js",
+    "static/js/3.c236ee5b.chunk.js.map": "/game_of_matches/static/js/3.c236ee5b.chunk.js.map",
+    "index.html": "/game_of_matches/index.html",
+    "static/css/main.1b64cd93.chunk.css.map": "/game_of_matches/static/css/main.1b64cd93.chunk.css.map",
+    "static/js/2.f97c8026.chunk.js.LICENSE.txt": "/game_of_matches/static/js/2.f97c8026.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/game_of_matches/static/media/computer.730087e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c0598ab.js",
+    "static/js/2.f97c8026.chunk.js",
+    "static/css/main.1b64cd93.chunk.css",
+    "static/js/main.870cfba2.chunk.js"
+  ]
+}
