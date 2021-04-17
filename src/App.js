@@ -25,12 +25,12 @@ export const App = () => {
   const random = () => {
     setTimeout(() => {
       let randomNumber;
-      if (countRef.current < 3) {
-        randomNumber = (computerCount + 1) % 2 === 0 ? 1 : 2;
+      if (countRef.current === 1) {
+        randomNumber = 1;
       } else if (countRef.current === 3) {
         randomNumber = (computerCount + 1) % 2 === 0 ? 3 : 2;
-      } else if (countRef.current === 1) {
-        randomNumber = 1;
+      } else if (countRef.current < 3) {
+        randomNumber = (computerCount + 1) % 2 === 0 ? 1 : 2;
       } else {
         randomNumber = Math.floor(Math.random() * 3) + 1;
       }
