@@ -14,14 +14,6 @@
   border-radius: 10px;
 }
 
-.player {
-  width: 180px;
-  height: 150px;
-  margin: 0 auto;
-  background-image: url(images/computer.png);
-  background-size: cover;
-}
-
 .start_button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -101,4 +93,14 @@
 
 .who_won {
   text-align: center;
+}
+
+.match_img {
+  width: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .board {
+    width: calc(100vw - 40px);
+  }
 }
