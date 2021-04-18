@@ -54,9 +54,9 @@
 
 .counter {
   width: 200px;
-  height: 150px;
+  height: 130px;
   justify-content: center;
-  margin: 10px auto 0;
+  margin: 30px auto 0;
   text-align: center;
 }
 
@@ -89,6 +89,7 @@
 .players_counter {
   display: flex;
   justify-content: center;
+  margin: 5px 0;
 }
 
 .who_won {

@@ -90,7 +90,7 @@ export const App = () => {
                     <img src={match} alt="match" className="match_img"/>
                   </div>
                   <div className="who_won">
-                    {whoWon === 'user' ? 'User won!' : ''}
+                    {whoWon === 'user' ? 'Player won!' : ''}
                     {whoWon === 'computer' ? 'Computer won!' : ''}
                   </div>
                   <div className="players_counter" style={{display: whoWon ? 'none' : ''}}>
