@@ -78,7 +78,9 @@ export const App = () => {
         <div className="computer"/>
         <div className="board">
           {!isStarted
-              ? <button className="start_button" onClick={startGame}>Start</button>
+              ? <div className="start_container">
+                  <button className="start_button" onClick={startGame}>Start</button>
+                </div>
               : ''
           }
           {isStarted
