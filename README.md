@@ -1,6 +1,21 @@
 # Game of matches(React)
 - [DEMO](http://nub1a.github.io/game_of_matches)
+- Used technologies:
+  - ReactJS
+  - React Hooks
+  - CSS
+    
+# Dependencies
+- Node v12.16.3 and higher
+- NPM v6.14.4 and higher
 
+# Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
+
+# Troubleshooting
+For any contributing or problem solving you could mail me sandyk.vladyslav@gmail.com
 # Вступление
 Двое играют в игру. Из кучки, где имеется 25 спичек, каждый берёт себе по очереди одну, две или три спички. Выигрывает тот, у кого в конце игры – после того, как все спички будут разобраны, – окажется четное число спичек.
 # Задание
