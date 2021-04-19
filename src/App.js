@@ -54,7 +54,6 @@ export const App = () => {
         return prevState + randomNumber;
       });
       setPlayerTurn(true);
-      console.log(randomNumber);
     }, 1000);
   }
 
