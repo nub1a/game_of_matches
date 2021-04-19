@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/game_of_matches/static/css/main.cc99b0e0.chunk.css",
-    "main.js": "/game_of_matches/static/js/main.622a8879.chunk.js",
-    "main.js.map": "/game_of_matches/static/js/main.622a8879.chunk.js.map",
+    "main.js": "/game_of_matches/static/js/main.62916e48.chunk.js",
+    "main.js.map": "/game_of_matches/static/js/main.62916e48.chunk.js.map",
     "runtime-main.js": "/game_of_matches/static/js/runtime-main.3c0598ab.js",
     "runtime-main.js.map": "/game_of_matches/static/js/runtime-main.3c0598ab.js.map",
     "static/js/2.f97c8026.chunk.js": "/game_of_matches/static/js/2.f97c8026.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.3c0598ab.js",
     "static/js/2.f97c8026.chunk.js",
     "static/css/main.cc99b0e0.chunk.css",
-    "static/js/main.622a8879.chunk.js"
+    "static/js/main.62916e48.chunk.js"
   ]
 }
