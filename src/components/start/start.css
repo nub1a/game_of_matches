@@ -1,0 +1,21 @@
+.start_button {
+    height: fit-content;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.start_button:hover {
+    background-color: gray;
+    color: #4CAF50;
+    cursor: pointer;
+}
