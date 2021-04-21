@@ -30,30 +30,30 @@ export const Game = () => {
   const computerTurn = useCallback(
     () => {
       setTimeout(() => {
-        let randomNumber;
+        let chosenComputerNumber;
         if (countRef.current === 1 || countRef.current === 2) {
-          randomNumber = 1;
+          chosenComputerNumber = 1;
         }
         if (countRef.current === 3) {
-          randomNumber = (computerCount + 1) % 2 === 0 ? 1 : 2;
+          chosenComputerNumber = (computerCount + 1) % 2 === 0 ? 1 : 2;
         }
         if (countRef.current > 3) {
           if ((countRef.current - 1) % 4 === 0 || (countRef.current - 1) % 4 === 1) {
-            randomNumber = 1;
+            chosenComputerNumber = 1;
           } else if ((countRef.current - 3) % 4 === 0 || (countRef.current - 3) % 4 === 1) {
-            randomNumber = 3;
+            chosenComputerNumber = 3;
           }
 
           if (countRef.current - 3 === 3 && (computerCount + 3) % 2 !== 0) {
-            randomNumber = 3;
+            chosenComputerNumber = 3;
           } else if (countRef.current - 2 === 3 && (computerCount + 2) % 2 !== 0) {
-            randomNumber = 2;
+            chosenComputerNumber = 2;
           } else if (countRef.current - 1 === 3 && (computerCount + 1) % 2 !== 0) {
-            randomNumber = 1;
+            chosenComputerNumber = 1;
           }
         }
 
-        setComputerCount((prevState) => prevState + randomNumber);
+        setComputerCount((prevState) => prevState + chosenComputerNumber);
         setPlayerTurn(true);
       }, 1000);
     },
